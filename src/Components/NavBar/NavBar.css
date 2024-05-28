@@ -22,9 +22,10 @@ nav {
     display: none;
 }
 
-.barHidden img {
+.barhidden {
     display: none;
 }
+
 
 nav ul li {
     display: inline-block;
@@ -32,6 +33,7 @@ nav ul li {
     font-size: 15px;
     list-style: none;
     cursor: pointer;
+
     /* transition: 1000ms; */
     text-decoration: none;
     height: auto;
@@ -81,6 +83,7 @@ nav ul li:hover {
     }
 
     .barhidden {
+        display: block;
         margin-bottom: 285px;
     }
 

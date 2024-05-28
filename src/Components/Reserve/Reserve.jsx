@@ -14,7 +14,7 @@ const Reserve = () => {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "bcd7ac14-3120-489d-adfe-78344ae24bd9");
+        formData.append("access_key", "API-KEY");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
