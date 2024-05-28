@@ -1,8 +1,7 @@
-# React + Vite
+# About The Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This landing page was a front-end development project for [this](https://www.figma.com/community/file/1195341252572719565/beauty-webflow-website-template) Figma design. The project was built with HTML, Vanilla CSS, and ReactJS. The website is responsive and integrates the [Web3Forms](https://web3forms.com/) API to send form submissions into email.
 
-Currently, two official plugins are available:
+# Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can access the website demo [here](https://beauty-website-demo.web.app/)
