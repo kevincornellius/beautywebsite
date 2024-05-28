@@ -1,0 +1,135 @@
+nav {
+    padding: 0 3%;
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    height: 90px;
+    top: 0;
+
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+.barMenu img {
+    width: 40px;
+    display: none;
+}
+
+.barHidden img {
+    display: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 15px;
+    list-style: none;
+    cursor: pointer;
+    /* transition: 1000ms; */
+    text-decoration: none;
+    height: auto;
+}
+
+nav ul li:hover {
+    color: #7A9CA5;
+    /* font-weight: 800; */
+
+}
+
+
+.btn {
+    display: flex;
+    background-color: #7A9CA5;
+    padding: 8px 18px;
+    color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1000ms;
+}
+
+.btn img {
+    margin: 5px;
+    width: 10%;
+}
+
+.btn p {
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: 80%;
+    box-shadow: inset 0 -5px 0 0 #697e84;
+
+
+}
+
+@media (max-width:950px) {
+
+    .barMenu img {
+        display: block;
+    }
+
+    .barhidden {
+        margin-bottom: 285px;
+    }
+
+    .menuLi {
+        height: 40px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding-top: 280px;
+        padding-right: 0;
+        margin-right: 0;
+        align-items: end;
+        width: 20%;
+        /* background-color: #FFFFFF; */
+    }
+
+    .hid ul {
+        display: none;
+    }
+
+    .hid img {
+        display: block;
+    }
+
+    .menu {
+        background-color: #FFFFFF;
+        /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
+        transform: translateX(20%);
+        height: auto;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        /* transition: 700ms ease; */
+    }
+
+    .menuhidden {
+        display: none;
+        background-color: #FFFFFF;
+        /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
+        transform: translateX(130%);
+        height: auto;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        /* transition: 700ms ease; */
+    }
+
+    nav ul li {
+        font-size: 20px;
+
+    }
+}

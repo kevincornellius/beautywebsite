@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.pagex {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 5px;
+    /* background-color: aqua; */
+}
+
+.lefb,
+.rigb {
+    width: 30px;
+    cursor: pointer;
+    margin: 0px 10px;
+    transition: 500ms ease;
+    height: fit-content;
+    margin-top: 150px;
+    /* background-color: aqua; */
+
+}
+
+.lefb:hover,
+.rigb:hover {
+    opacity: 60%;
+    /* background-color: aqua; */
+
+}
+
+.thep {
+    width: 800px;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+
+}
+
+.thep ul {
+    display: flex;
+    margin: 20px;
+    /* overflow-x: hidden; */
+    transform: translateX(0%);
+    transition: 1000ms;
+
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 10px 5px;
+    font-size: 22px;
+}
+
+.info p {
+    margin: 10px 5px;
+    font-size: 12px;
+}
+
+.info button {
+    background-color: #FFFFFF;
+    border: 2px solid #5C8692;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin: 10px 0;
+    padding: 12px 26px;
+    transition: 500ms ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+.info button:hover {
+    background-color: #5C8692;
+    opacity: 60%;
+    /* color: #FFFFFF; */
+}
+
+
+.slide img {
+    width: 250px;
+}
+
+.thep ul li {
+    margin: 10px 70px;
+    text-decoration: none;
+    list-style: none;
+    /* background-color: antiquewhite; */
+
+}
+
+.slide h3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@media (max-width:1100px) {
+    .pagex {
+        padding: 30px;
+
+    }
+
+    .thep {
+        width: 450px;
+        padding-left: 0;
+        height: fit-content;
+    }
+
+    .thep ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .thep ul li {
+        margin: 10px 40px;
+
+    }
+
+    .slide {
+        width: 150px;
+
+    }
+
+    .slide img {
+        width: 150px;
+    }
+
+    .info h3 {
+        margin: 5px 2px;
+        font-size: 15px;
+    }
+
+    .info p {
+        margin: 10px 5px;
+        font-size: 8px;
+    }
+
+    .info button {
+        background-color: #FFFFFF;
+        border: 2px solid #5C8692;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 8px;
+        margin: 10px 0;
+        padding: 6px 13px;
+        transition: 500ms ease;
+        cursor: pointer;
+
+    }
+
+    .lefb,
+    .rigb {
+        width: 20px;
+
+
+    }
+}
+
+@media (max-width:600px) {
+    .pagex {
+        padding: 30px;
+
+    }
+
+    .thep {
+        width: 360px;
+        padding-left: 0;
+        height: fit-content;
+    }
+
+    .thep ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .thep ul li {
+        margin: 10px 7px;
+
+    }
+
+    .slide {
+        width: 150px;
+
+    }
+
+    .slide img {
+        width: 150px;
+    }
+
+    .info h3 {
+        margin: 5px 2px;
+        font-size: 15px;
+    }
+
+    .info p {
+        margin: 10px 5px;
+        font-size: 8px;
+    }
+
+    .info button {
+        background-color: #FFFFFF;
+        border: 2px solid #5C8692;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 8px;
+        margin: 10px 0;
+        padding: 6px 13px;
+        transition: 500ms ease;
+        cursor: pointer;
+
+    }
+
+    .lefb,
+    .rigb {
+        width: 20px;
+
+
+    }
+}
+
+@media (max-width:400px) {
+    .pagex {
+        padding: 30px;
+
+    }
+
+    .lefb,
+    .rigb {
+        width: 15px;
+
+
+    }
+
+    .thep {
+        width: 360px;
+        padding-left: 0;
+        height: fit-content;
+    }
+
+    .thep ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .thep ul li {
+        margin: 10px 4px;
+
+    }
+
+    .slide {
+        width: 100px;
+
+    }
+
+    .slide img {
+        width: 100px;
+    }
+
+    .info h3 {
+        margin: 5px 2px;
+        font-size: 12px;
+    }
+
+    .info p {
+        margin: 10px 5px;
+        font-size: 8px;
+    }
+
+    .info button {
+        background-color: #FFFFFF;
+        border: 2px solid #5C8692;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 6px;
+        margin: 10px 0;
+        padding: 6px 13px;
+        transition: 500ms ease;
+
+        cursor: pointer;
+
+    }
+
+
+}

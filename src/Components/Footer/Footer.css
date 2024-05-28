@@ -1,0 +1,157 @@
+.fut {
+    width: 100%;
+    min-height: 60vh;
+    background-color: #1E2C30;
+    padding-top: 40px;
+}
+
+.topf {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 250px;
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.bottom {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    padding-top: 40px;
+    justify-content: space-between;
+    margin: 0px 250px;
+
+}
+
+.a h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.a ul {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.a ul li {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 12px;
+    margin: 5px 0;
+    transition: 500ms ease;
+}
+
+.clc {
+    cursor: pointer;
+}
+
+.clc li:hover {
+    opacity: 50%;
+
+}
+
+.logof {
+    width: 250px;
+}
+
+.socials {
+    display: flex;
+}
+
+.boxes {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #1E2C30; */
+    border: 3px solid #5C8692;
+    transition: 1000ms ease;
+    cursor: pointer;
+}
+
+.boxes:hover {
+    background-color: #5C8692;
+}
+
+
+
+
+.copy {
+    width: 100%;
+    height: 5vh;
+    background-color: #111E22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy p {
+    color: #ffffff;
+    font-size: 12px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+@media (max-width:1300px) {
+
+    .topf,
+    .bottom {
+        margin: 0 120px;
+    }
+}
+
+@media (max-width:900px) {
+
+    .topf,
+    .bottom {
+        margin: 0 120px;
+    }
+
+    .boxes {
+        width: 20px;
+        height: 20px;
+    }
+
+    .copy p {
+        font-size: 8px;
+    }
+
+
+}
+
+@media (max-width:800px) {
+
+
+    .topf {
+        flex-direction: column;
+    }
+
+    .socials {
+        margin: 10px 0;
+    }
+
+    .bottom {
+        align-items: center;
+        text-align: center;
+
+        flex-direction: column;
+    }
+
+    .a {
+        margin: 10px 0;
+    }
+
+
+}

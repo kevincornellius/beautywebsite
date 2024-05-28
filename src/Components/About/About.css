@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.abt {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #EBF3F5;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 250px;
+    /* padding-top: 90px; */
+}
+
+.content {
+
+
+    display: flex;
+    /* background-color: antiquewhite; */
+}
+
+.top {
+    color: #5C8692;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+
+}
+
+.text h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+    padding-right: 50px;
+}
+
+.desc {
+    margin: 10px 0px;
+    font-size: 12px;
+}
+
+.cards {
+    display: flex;
+    margin: 5px 0px;
+}
+
+.cards img {
+    width: 120px;
+    margin: 20px 10px 0 0;
+}
+
+.text {
+    /* background-color: aqua; */
+    padding: 10px 80px;
+}
+
+.att {
+    width: 400px;
+    height: fit-content;
+}
+
+@media (max-width: 1300px) {
+    .abt {
+        padding: 120px 60px;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .abt {
+        padding: 60px 10px;
+    }
+
+    .content {
+        padding: 0px 250px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text h1 {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .abt {
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+    }
+
+    .att {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 24px;
+    }
+
+    .text p {
+        font-size: 10px;
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .cards img {
+        width: 70px;
+        margin: 20px 3px 0 3px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content {
+        padding: 0px 25px;
+
+    }
+
+    .att {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 24px;
+    }
+
+    .text p {
+        font-size: 10px;
+    }
+
+    .text {
+        width: 300px;
+    }
+
+    .cards img {
+        width: 70px;
+        margin: 20px 3px 0 3px;
+    }
+}
